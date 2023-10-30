@@ -1,0 +1,33 @@
+/* Container principale per FizzBuzz */
+#fizzBuzzContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    width: calc(70px * 11 + 10px * 6); 
+    margin: 20px auto; 
+}
+
+/* Stile base per ogni quadrato */
+.fizzbuzz-item {
+    width: 70px; 
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid black; 
+    background-color: #e9e9e9; 
+    font-size: 14px;
+}
+
+/* Colori specifici per Fizz, Buzz e FizzBuzz */
+.fizz {
+    background-color: rgb(232, 143, 195);
+}
+
+.buzz {
+    background-color: rgb(253, 156, 81);
+}
+
+.fizzbuzz {
+    background-color: rgb(119, 222, 215);
+}
